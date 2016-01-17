@@ -32,22 +32,32 @@
 
 当我写下此文， Python社区正处于从Python 2迁移到Python 3的动荡之中。Python Software Foundation的官方态度如下：
 
-> Python 2.x is the status quo, Python 3.x is the present and future of the language.[Python wiki: python2还是python3](http://wiki.python.org/moin/Python2orPython3)
+> Python 2.x is the status quo, Python 3.x is the present and future of the language.
+
+> 来源： [The Python wiki: Python2还是Python3](http://wiki.python.org/moin/Python2orPython3)
+
 
 到了版本0.10，Flask现在可以在Python 3.3上运行。就新的Flask应用是否需要使用Python 3的问题，我问过Armin Ronacher，他回答说，这不是必须的：
 
 > 我自己现在并不用它，我也不会向别人推荐自己都不相信的东西，所以我不会推荐Python 3.
-> -- Armin Ronacher, Flask作者[我和Armin Ronacher的对话](https://www.youtube.com/watch?feature=player_detailpage&v=fs20qdvm0K4#t=190)
+
+> -- Armin Ronacher, Flask作者
+
+> 来源： [我和Armin Ronacher的对话](https://www.youtube.com/watch?feature=player_detailpage&v=fs20qdvm0K4#t=190)
 
 主要的理由在于许多常用的包没有Python 3的版本。
+
 你总不会愿意接受用python 3开发了几个月后发现自己不能使用包X,Y,Z……
+
 也许总有一天Flask官方将推荐用Python 3开始新的项目，但是现在依然是Python 2的天下。
 
 **另注**
+> **参见**
 
-[Python 3 Wall of Superpowers](https://python3wos.appspot.com/)记录了一些已经移植到Python 3的包。
+> [Python 3 Wall of Superpowers](https://python3wos.appspot.com/) 记录了一些已经移植到Python 3的包。
 
 既然本书需要提供实践上的建议，我将假定你正使用Python 2。
+
 更准确地说，我将基于Python 2.7撰写本书。随着Flask社区的变迁，将来的更新会改变这一点，但是在当下，我们依然活在Python 2.7的世界里。
 
 #### Flask 版本 0.10
@@ -57,7 +67,9 @@
 ## 持续集成
 
 本书的内容将持续更新，而不是周期性发布。
+
 这样做有一个好处，内容可以得到及时地更新，而不会待字闺中。
+
 所以这个网站内容将会比印刷版甚至PDF更加前沿。
 
 ## 本书用到的约定
@@ -65,6 +77,7 @@
 ### 各章独立成文
 
 本书的每一章独立成文。许多书和教程通篇浑然一体。通常这意味着，一个示范程序或一个应用的创建和更新将贯穿全书来展示概念和主题。
+
 本书的范例将散布于每一章节来展示概念，但不意味着这些范例可以组合成一个大的项目。
 
 ### 格式
@@ -92,15 +105,16 @@ static/
 **粗体**将用来表示新的或重要的内容。
 
 > **注意**
+
 > 这里会有容易掉进去（而且会造成大问题）的坑。
 
 ---
 
 > **参见**
+
 > 这里会有一些补充信息。
 
 ## 总结
-
 * 本书包含了使用Flask的最佳实践。
 * 我假定你通读了Flask教程
 * 本书基于Python 2.7
