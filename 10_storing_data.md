@@ -1,4 +1,4 @@
-![存储](images/storing.png)
+![存储](_images/storing.png)
 
 # 存储
 
