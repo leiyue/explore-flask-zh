@@ -4,12 +4,7 @@
         "ga"
     ],
     "output": null,
-    "pluginsConfig": {
-        "ga": {
-            "token": "UA-72535980-1",
-            "configuration": "auto"
-        }
-    },
+    "pluginsConfig": {},
     "pdf": {
         "fontSize": 22
     },
