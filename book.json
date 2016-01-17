@@ -39,7 +39,7 @@
         "pdf": {
                 "toc": true, 
                 "pageNumbers": false, 
-                "fontSize": 16, 
+                "fontSize": 18, 
                 "fontFamily": "Arial", 
                 "paperSize": "a4", 
                 "chapterMark": "pagebreak", 
