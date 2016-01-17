@@ -1,107 +1,57 @@
 {
-    
-    'configFile': 'book',
-    'generator': 'website',
-    'extension': null,
-
-    
-    'title': null,
-    'description': null,
-    'isbn': null,
-    'language': 'en',
-    'direction': null,
-    'author': null,
-
-    
-    'gitbook': '*',
-
-    
-    'structure': {
-        'langs': 'LANGS.md',
-        'readme': 'README.md',
-        'glossary': 'GLOSSARY.md',
-        'summary': 'SUMMARY.md'
-    },
-
-    
-    'styles': {
-        'website': 'styles/website.css',
-        'print': 'styles/print.css',
-        'ebook': 'styles/ebook.css',
-        'pdf': 'styles/pdf.css',
-        'mobi': 'styles/mobi.css',
-        'epub': 'styles/epub.css'
-    },
-
-    
-    'plugins': [],
-
-    
-    'pluginsConfig': {},
-
-    
-    'variables': {},
-
-    
-    
-    
-    'theme': path.resolve(__dirname, '../theme'),
-
-    
-    'links': {
-        
-        'sidebar': {
-            
-        },
-
-        
-        'sharing': {
-            'google': null,
-            'facebook': null,
-            'twitter': null,
-            'weibo': null,
-            'all': null
+        "configFile": "book", 
+        "generator": "website", 
+        "extension": null, 
+        "title": null, 
+        "description": null, 
+        "isbn": null, 
+        "language": "en", 
+        "direction": null, 
+        "author": null, 
+        "gitbook": "*", 
+        "structure": {
+                "langs": "LANGS.md", 
+                "readme": "README.md", 
+                "glossary": "GLOSSARY.md", 
+                "summary": "SUMMARY.md"
+        }, 
+        "styles": {
+                "website": "styles/website.css", 
+                "print": "styles/print.css", 
+                "ebook": "styles/ebook.css", 
+                "pdf": "styles/pdf.css", 
+                "mobi": "styles/mobi.css", 
+                "epub": "styles/epub.css"
+        }, 
+        "plugins": [ ], 
+        "pluginsConfig": { }, 
+        "variables": { }, 
+        "theme": "", 
+        "links": {
+                "sidebar": { }, 
+                "sharing": {
+                        "google": null, 
+                        "facebook": null, 
+                        "twitter": null, 
+                        "weibo": null, 
+                        "all": null
+                }
+        }, 
+        "pdf": {
+                "toc": true, 
+                "pageNumbers": false, 
+                "fontSize": 12, 
+                "fontFamily": "Arial", 
+                "paperSize": "a4", 
+                "chapterMark": "pagebreak", 
+                "pageBreaksBefore": "/", 
+                "margin": {
+                        "right": 62, 
+                        "left": 62, 
+                        "top": 56, 
+                        "bottom": 56
+                }, 
+                "headerTemplate": null, 
+                "footerTemplate": null
         }
-    },
-
-
-    
-    'pdf': {
-        
-        'toc': true,
-
-        
-        'pageNumbers': false,
-
-        
-        'fontSize': 12,
-        'fontFamily': 'Arial',
-
-        
-        
-        'paperSize': 'a4',
-
-        
-        
-        'chapterMark' : 'pagebreak',
-
-        
-        
-        'pageBreaksBefore': '/',
-
-        
-        
-        'margin': {
-            'right': 62,
-            'left': 62,
-            'top': 56,
-            'bottom': 56
-        },
-
-        
-        'headerTemplate': null,
-
-        
-        'footerTemplate': null
-    }
 }
