@@ -48,12 +48,13 @@ def launch_rocket():
 
 这种风格的文档字符串可以通过一些诸如 [Sphinx](http://sphinx-doc.org/) 的软件来生成不同格式的文档。同时它们也有助于让你的代码更加工整。
 
-> *参见*
+> **参见**
+
 > * PEP 8 <http://legacy.python.org/dev/peps/pep-0008/>
 > * PEP 257 <http://legacy.python.org/dev/peps/pep-0257/>
 > * Sphinx <http://sphinx-doc.org/>，一个文档生成器，同出于Flask作者之手
 
-## 相对形式的import
+## 相对形式的 imports
 
 开发Flask应用时，使用相对形式的import会让你的生活更加轻松。
 原因很简单。之前，当需要import一个内部模块时，你也许要显式指明应用的包名（the app's package name）。假设你想要从*myapp/models.py*中导入`User`模型：
