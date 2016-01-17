@@ -94,7 +94,7 @@ Alembic有一个可拓展的新手教程，所以我只会大概地说一下并�
 
 ```
 myapp/
-	alembic.ini
+    alembic.ini
     alembic/
         env.py
         README
@@ -104,14 +104,13 @@ myapp/
             2b1ae634e5cd_add_order_id.py
             3adcc9a56557_rename_username_field.py
     myapp/
-    	__init__.py
+        __init__.py
         views.py
         models.py
-      	templates/
+        templates/
     run.py
     config.py
     requirements.txt
-
 ```
 
 *alembic/*文件夹中包括了在版本间迁移数据的脚本。同时会有一个包括配置信息的*alembic.ini*文件。
