@@ -3,32 +3,38 @@
 # 代码约定
 
 在Python社区中有许多关于代码风格的约定。如果你写过一段时间Python了，那么也许对此已经有些了解。
+
 我会简单介绍一下，同时给你一些URL链接，从中你可以找到关于这个话题的详细信息。
 
 ## 让我们提出一个PEP！
 
-**PEP**全称是“Python Enhancement Proposal”（Python增强提案）。你可以在[python.org](http://www.python.org/dev/peps/)上找到它们以及对应的索引目录。
-PEP在索引目录中按照数字编号排列，包括了元PEP（meta-PEP，讨论关于PEP的细节）。与之对应的是技术PEP（technical PEP），思考的是诸如Python内部实现的改良这样的话题。
+**PEP** 全称是 “Python Enhancement Proposal” （Python增强提案）。你可以在 [python.org](http://www.python.org/dev/peps/) 上找到它们以及对应的索引目录。PEP在索引目录中按照数字编号排列，包括了元PEP（meta-PEP，讨论关于PEP的细节）。与之对应的是技术PEP（technical PEP），思考的是诸如Python内部实现的改良这样的话题。
 
 有一些PEP，比如PEP 8和PEP 257，影响了Python代码风格的标准。
-PEP 8包括了Python代码风格的规约。
-而PEP 257包括了文档字符串（docstrings， 在Python中给代码加文档的标准方式）的规约。
+PEP 8包括了Python代码风格的规约。而PEP 257包括了文档字符串（docstrings， 在Python中给代码加文档的标准方式）的规约。
 
 ### PEP 8: Python代码风格规约
 
 PEP 8是对Python代码风格的官方规约。
+
 我建议你阅读它并将之付诸在Flask项目（以及其他Python项目）的开发实践中。
+
 当项目规模膨胀到多个包含成百上千行代码的文件时，这样做会使你的代码更加工整、了然。毕竟PEP 8的建议都是围绕着实现更加可读的代码这个目标。
+
 另外，如果你的项目准备开源，潜在的奉献者（contributors）会很高兴看到你的代码是遵循PEP 8的。
 
 一个至关重要的建议是每级缩进使用4个空格。不要使用tab。
+
 如果你打破了这个规约，它将会成为你（以及你的队友）在项目间切换的一个负担。
+
 这种不一致一向是任意语言心中的痛，但是对于Python，一门着重留白的语言，这是一个不可承受之重。
+
 因为tab与space之间的混搭会导致不可预期且难以排查的错误。
 
 ### PEP 257: 文档字符串规约
 
 PEP 257 覆盖了Python的另一项标准:**docstrings**。
+
 你可以阅读PEP中的定义和相关建议，不过这里会给一个例子来展示一个文档字符串应该是怎样的：
 
 ```python
@@ -40,10 +46,9 @@ def launch_rocket():
     # [...]
 ```
 
-这种风格的文档字符串可以通过一些诸如[Sphinx](http://sphinx-doc.org/)的软件来生成不同格式的文档。
-同时它们也有助于让你的代码更加工整。
+这种风格的文档字符串可以通过一些诸如 [Sphinx](http://sphinx-doc.org/) 的软件来生成不同格式的文档。同时它们也有助于让你的代码更加工整。
 
-> 参见
+> *参见*
 > * PEP 8 <http://legacy.python.org/dev/peps/pep-0008/>
 > * PEP 257 <http://legacy.python.org/dev/peps/pep-0257/>
 > * Sphinx <http://sphinx-doc.org/>，一个文档生成器，同出于Flask作者之手
