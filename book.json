@@ -1,26 +1,14 @@
 {
+    "plugins": [
+        "betterchinese"
+    ],
     "output": null,
-    "gitbook": ">=2.2.0",
-    "generator": "site",
-
-    "title": "Flask之旅",
-    "description": "关于Flask的最佳实践",
-
-    "extension": null,
-
-    "plugins": [],
-
-    "pluginsConfig": {
-        "fontSettings": {
-            "theme": "sepia",
-            "family": "sans",
-            "size": 2
-        }
-    },
+    "pluginsConfig": {},
     "pdf": {
-      "fontSize": 22
+        "fontSize": 22
     },
-
+    "generator": "site",
+    "title": "Flask之旅",
     "links": {
         "sharing": {
             "google": null,
@@ -29,5 +17,8 @@
             "weibo": null,
             "all": null
         }
-    }
+    },
+    "gitbook": ">=2.2.0",
+    "description": "关于Flask的最佳实践",
+    "extension": null
 }
