@@ -1,4 +1,4 @@
-![静态文件](images/static.png)
+![静态文件](_images/static.png)
 
 # 静态文件
 
