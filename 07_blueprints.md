@@ -1,4 +1,4 @@
-![蓝图](images/blueprints.png)
+![蓝图](_images/blueprints.png)
 
 # 蓝图
 
