@@ -1,4 +1,4 @@
-![部署](images/deployment.png)
+![部署](_images/deployment.png)
 
 # 部署
 
