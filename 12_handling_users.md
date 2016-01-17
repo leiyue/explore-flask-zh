@@ -1,4 +1,4 @@
-![用户管理的规范](images/users.png)
+![用户管理的规范](_images/users.png)
 
 # 用户管理的规范
 
