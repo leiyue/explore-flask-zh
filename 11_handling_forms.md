@@ -1,4 +1,4 @@
-![处理表单](images/forms.png)
+![处理表单](_images/forms.png)
 
 # 处理表单
 
